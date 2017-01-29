@@ -7,7 +7,7 @@
   </head>
   <body>
     <header class="main-header">
-	  <div class="container">
+	  <div class="container clearfix">
 	    <nav class="main-navigation">
 		  <ul>
 		    <li>
@@ -32,7 +32,7 @@
 	    </div>
 	  </div>
 	</header>
-	<main class="container page-container">
+	<main class="container page-container clearfix">
 	  <h1>Средства для ухода</h1>
 	  <ul class="breadcrumbs">
 		<li>
@@ -45,19 +45,19 @@
 		  <a class="selected-page-accessories">Средства для ухода</a>
 		</li>
 	  </ul>
-	  <form class="show-items" action="https://echo.htmlacademy.ru" method="post">
+	  <form class="show-items" action="https://echo.htmlacademy.ru" method="get">
 		<div class="item-groups">
 		  <h2 class="select-title">Производители</h2>
 		  <label>
-			<input type="checkbox" name="baxter" >
+			<input type="checkbox" name="baxter" checked>
 		    Baxter of California
 		  </label>
 		  <label>
-		    <input type="checkbox" name="natty" >
+		    <input type="checkbox" name="natty">
 		    Mr Natty
 		  </label>
 		  <label>
-			<input type="checkbox" name="suavecito" >
+			<input type="checkbox" name="suavecito" checked>
 			Suavecito
 		  </label>
 		  <label>
@@ -69,7 +69,7 @@
 			Murray's
 		  </label>
 		  <label>
-			<input type="checkbox" name="american" >
+			<input type="checkbox" name="american" checked>
 			American Crew
 		  </label>
 		</div>
