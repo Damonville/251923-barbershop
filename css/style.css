@@ -1,13 +1,14 @@
 body {min-width: 1200px;
-	min-height: 1170px;
 	font-size:14px ;
 	line-height:24px;
 	color:#000000;
 	font-weight: bold;
 	font-family: arial;
+	margin: 0;
+    padding: 0;
 	}
 
-h1 {width:auto;
+h1 {
 	background:yellow;
 	font-size:30px ;
 	line-height:42px;
@@ -33,7 +34,7 @@ h3 {
 
 .main-header {
 	background: green;
-  margin-bottom: 60px;
+  	margin-bottom: 60px;
 }
 
 .clearfix::after {
@@ -53,13 +54,11 @@ h3 {
 	background: yellow; /* подсветка разметки */
 	float:left;
 	width:780px;
-	min-height: 70px;
 }
 .user-block {
 	background: yellow; /* подсветка разметки */
 	float:right;
 	width:140px;
-	min-height: 70px;
 }
 
 .page-container{
@@ -70,9 +69,7 @@ h3 {
 
 }
 .breadcrumbs {
-	margin-right:80px; 
-	min-width:300px; 
-	min-height:16px;
+	margin-right:80px;  
 	background:yellow;
 }
 							/* сетка catalog-item*/
@@ -101,7 +98,6 @@ div.buy {
 .item-pictures{
 	float:left;
 	min-width:460px;
-	min-height:670px;
 	margin-bottom:30px;
 	background: purple;
 }
@@ -132,7 +128,6 @@ div.buy {
 	background: pink;
 	width:700px;
 	margin-top: 60px;
-	min-height:690px;
 	float:right; 
 }
 article	{
@@ -162,26 +157,23 @@ label {
 	margin-top: 65px;
 	padding-top: 60px;
 	padding-bottom: 40px;
-	min-height:90px;
+	
 }
 .footer-contacts {
 	background:yellow;
 	float: left;
 	width: 320px;
 	margin-right: 60px;
-	min-height: 90px;
 }
 
 .footer-social {
 	background:yellow;
 	float: left;
 	width: 180px;
-	min-height: 90px;
 }
 
 .footer-copyright {
 	background:yellow;
 	float: right;
 	width: 180px;
-	min-height: 90px;
 }
